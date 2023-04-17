@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include farmley_app *.css
+recursive-include farmley_app *.csv
+recursive-include farmley_app *.html
+recursive-include farmley_app *.ico
+recursive-include farmley_app *.js
+recursive-include farmley_app *.json
+recursive-include farmley_app *.md
+recursive-include farmley_app *.png
+recursive-include farmley_app *.py
+recursive-include farmley_app *.svg
+recursive-include farmley_app *.txt
+recursive-exclude farmley_app *.pyc
