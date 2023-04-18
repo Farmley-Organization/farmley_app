@@ -113,23 +113,11 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#	"all": [
-#		"farmley_app.tasks.all"
-#	],
-#	"daily": [
-#		"farmley_app.tasks.daily"
-#	],
-#	"hourly": [
-#		"farmley_app.tasks.hourly"
-#	],
-#	"weekly": [
-#		"farmley_app.tasks.weekly"
-#	],
-#	"monthly": [
-#		"farmley_app.tasks.monthly"
-#	],
-# }
+scheduler_events = {
+	"daily": [
+		"farmley_app.automation.auto_cancel_delivery_note"
+	],
+}
 
 # Testing
 # -------
